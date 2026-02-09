@@ -1,3 +1,5 @@
+/* Vanilla JS for quick view, variant picking, and AJAX add-to-cart */
+
 document.addEventListener('DOMContentLoaded', function() {
   const plusIcons = document.querySelectorAll('.plus-icon');
   const modal = document.getElementById('productModal');
@@ -61,7 +63,7 @@ document.addEventListener('DOMContentLoaded', function() {
       // set equal widths
       const options = colorBox.querySelectorAll(".color-option");
       options.forEach(opt => {
-        opt.style.flex = 1 1 ${100 / options.length}%;
+        opt.style.flex = `1 1 ${100 / options.length}%`;
       });
 
       /** ---------------- Sizes ---------------- */
