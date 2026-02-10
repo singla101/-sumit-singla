@@ -34,7 +34,7 @@ plusIcons.forEach(icon => {
     document.getElementById('modalTitle').innerText = this.dataset.title;
     document.getElementById('modalImage').src = this.dataset.image;
     document.getElementById('modalDescription').innerText = this.dataset.description;
-
+    document.getElementById('modalPrice').innerText = this.dataset.price;
     modal.style.display = 'block';
 
     currentVariants = JSON.parse(this.dataset.variants || "[]");
