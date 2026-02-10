@@ -227,13 +227,6 @@
   .grid-container {
     grid-template-columns: repeat(2, 1fr);
   }
-  .modal{
-    width:80%;
-  }
-  .modal-img{
-  height:auto;
-  width:90px;
-  }
 }
 .modal-img{
   height:auto;
