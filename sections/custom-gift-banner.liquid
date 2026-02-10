@@ -11,7 +11,12 @@
 {% endcomment %}
  <section class="gg-announcement">
   <div class="gg-announcement__bar">
-   <img src= {{ 'tissovison.png' | asset_url }} alt="Shop logo" width="1" height="1">
+   <img 
+  src="{{ 'tissovison.png' | asset_url }}" 
+  alt="Shop logo" 
+  style="width: 24px; height: auto;"
+>
+
     <div class="gg-announcement__msg">{{ section.settings.announce_text }}</div>
       <button class="gg-btn" href="{{ section.settings.announce_button_url }}">
         {{ section.settings.announce_button_label }} →
