@@ -9,27 +9,15 @@
 {% comment %}
   Top-bar of the page
 {% endcomment %}
-<section class="gg-announcement">
+ <section class="gg-announcement">
   <div class="gg-announcement__bar">
-    <img
-      src="{{ 'tissovison.png' | asset_url }}"
-      alt="Shop logo"
-      class="gg-announcement__logo"
-    >
-
-    <div class="gg-announcement__msg">
-      {{ section.settings.announce_text }}
-    </div>
-
-    <a
-      class="gg-btn"
-      href="{{ section.settings.announce_button_url }}"
-    >
-      {{ section.settings.announce_button_label }} →
-    </a>
+   <img src= {{ 'tissovison.png' | asset_url }} alt="Shop logo" width="auto" height="auto">
+    <div class="gg-announcement__msg">{{ section.settings.announce_text }}</div>
+      <button class="gg-btn" href="{{ section.settings.announce_button_url }}">
+        {{ section.settings.announce_button_label }} →
+      </button>
   </div>
 </section>
-
 <img src="{{ 'Frame1.png' | asset_url }}" alt="banner" width="100%" height="100%">
 <div class="banner-section">
   <div class="banner-section-textarea">
