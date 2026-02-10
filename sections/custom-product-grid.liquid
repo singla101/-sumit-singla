@@ -16,7 +16,7 @@
 
   <!-- Product Grid -->
   <div class="grid-container">
-    {% for product in collections.gift-guide.products %}
+    {% for product in collections.gift-guide.products limit: 6 %}
       {% assign first_image = product.featured_image | img_url: '600x600' %}
       <div class="image-container">
         <img 
@@ -49,7 +49,7 @@
 
     <!-- Header: Image + Details -->
     <div class="modal-header">
-      <img id="modalImage" alt="Product image" width="60" height="60">
+      <img id="modalImage" src="" alt="Product image" width="120px" height="auto">
       <div class="modal-details">
         <div id="modalTitle"></div>
         <div class="price" id="modalPrice"></div>
