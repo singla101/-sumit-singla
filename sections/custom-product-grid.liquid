@@ -32,7 +32,7 @@
           data-image="{{ first_image }}"
           data-description="{{ product.description | strip_html | truncate: 150 }}"
           data-variants='{{ product.variants | json }}'
-          data-price="{{ product.description | strip_html | truncate: 150 }}"
+          data-price="{{ product.price }}"
         >
           +
         </div>
