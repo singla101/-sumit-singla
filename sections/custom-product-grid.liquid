@@ -16,7 +16,7 @@
 
   <!-- Product Grid -->
   <div class="grid-container">
-    {% for product in collections.gift-guide.products limit: 6 %}
+    {% for product in collections.gift-guide.products%}
       {% assign first_image = product.featured_image | img_url: '600x600' %}
       <div class="image-container">
         <img 
