@@ -228,3 +228,7 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
+.modal-img{
+  height:auto;
+  width:120px;
+}
