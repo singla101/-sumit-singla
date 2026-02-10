@@ -31,8 +31,7 @@
     }
   },
   "order": [
-    "banner"
-    ,
+    "banner",
     "grid"
   ]
 }
