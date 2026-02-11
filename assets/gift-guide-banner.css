@@ -19,6 +19,8 @@
   align-items: center;
   padding: 12px 20px;
   background: #F5F5F5;
+  flex-wrap:wrap;
+  gap:16px;
 }
 
 .gg-announcement__msg {
