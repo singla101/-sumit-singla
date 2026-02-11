@@ -14,7 +14,7 @@
 
 .gg-announcement__bar {
   display: flex;
-  flex-direction: row;
+  flex-direction:row;
   justify-content: space-between;
   align-items: center;
   padding: 8px 20px;
@@ -25,7 +25,7 @@
   font-weight: 400;
   color: #000;
   font-size: 16px;
-  align-items:center;
+  justify-content: center;
 }
 
 .gg-bottom-bar {
@@ -188,5 +188,9 @@
   .gg-shop-btn {
     font-size: 14px;
     padding: 8px 14px;
+  }
+  .brand_text{
+    justify-content:center;
+    align-items:center;
   }
 }
